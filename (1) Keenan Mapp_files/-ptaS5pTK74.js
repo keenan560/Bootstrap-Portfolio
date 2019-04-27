@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["2gMl2"]); }
+
+__d("DeveloperCommunicationEvent",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({CREATED:"created",DASHBOARD_FIRST_READ:"dashboard_first_read",DASHBOARD_READ:"dashboard_read",EMAIL_READ:"email_read",JEWEL_SEEN:"jewel_seen",JEWEL_LIST_OPEN:"jewel_list_open",JEWEL_LIST_CLOSE:"jewel_list_close",PREFS_SUBSCRIBE:"prefs_subscribe",PREFS_UNSUBSCRIBE:"prefs_unsubscribe",PREFS_APP_SUBSCRIBE:"prefs_app_subscribe",PREFS_APP_UNSUBSCRIBE:"prefs_app_unsubscribe",AGGREGATED_ALERT_DIALOG_READ:"aggregated_alert_dialog_read"})}),null);

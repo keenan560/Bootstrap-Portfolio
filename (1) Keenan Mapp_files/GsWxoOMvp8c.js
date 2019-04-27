@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["QVQyS"]); }
+
+__d("DeveloperCommunicationType",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({DEV_BLOG_DIGEST:"dev_blog_digest",DEV_BLOG_POST:"dev_blog_post",ADS_BLOG_DIGEST:"ads_blog_digest",ADS_BLOG_POST:"ads_blog_post",DEV_API_DOC_UPDATE:"dev_api_doc_update",INSTANT_ARTICLE_BLOG_POST:"instant_article_blog_post",DEV_ALERT:"dev_alert",DEV_WELCOME_EMAIL:"dev_welcome_email",APP_SETTINGS_CHANGE:"app_settings_change",DEV_SETTINGS_CHANGE:"dev_settings_change"})}),null);

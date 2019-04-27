@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["4PXlJ"]); }
+
+__d("DeveloperCommunicationLogger",["CurrentUser","DeveloperCommunicationEvent","DeveloperCommunicationType","DeveloperCommunicationTypedLogger"],(function(a,b,c,d,e,f){"use strict";function a(a){a=a?b("DeveloperCommunicationEvent").JEWEL_LIST_OPEN:b("DeveloperCommunicationEvent").JEWEL_LIST_CLOSE;new(b("DeveloperCommunicationTypedLogger"))().setEvent(a).setType(b("DeveloperCommunicationType").DEV_ALERT).setRecipientID(b("CurrentUser").getID()).log()}e.exports={logJewelToggle:a}}),null);
