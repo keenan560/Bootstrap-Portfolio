@@ -9,30 +9,31 @@
         crossorigin="anonymous">
     <title>Document</title>
 </head>
+<body style=" line-height: 34px;background-image: url(/Users/keenanmapp/Documents/Bootstrap-Portfolio/texturetastic_gray_@2X.png)">
 
-<body style="background-image: url(/Users/keenanmapp/Documents/Bootstrap-Portfolio/texturetastic_gray_@2X.png)">
-    <nav class="navbar clearfix bg-white border border-secondary mb-5" style="text-decoration:none">
-        <div class="bg-info text-white p-4 my-0" style="margin-left: 21.53%">
-            <h2 style="font-weight:bold; font-family: Georgia, 'Times New Roman', Times, serif">Keenan Mapp</header>
+    <header class="bg-white" style="position: fixed; z-index:99; width:100%; margin: 0 0 30px; overflow:auto; border-bottom: 2px solid #cccccc;">
+        <div style="width: 100%; max-width: 960px; margin: 0 auto; clear: both;">
+            <a class="text-white bg-info" style="text-decoration: none;text-align: center;line-height: 90px; float:left; width: 250px; height: 90px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 30px; font-weight: bold;"
+                href="index.html">Keenan Mapp</a>
+            <nav class="float-right text-secondary" style=" margin-top: 25px;display:inline-block; padding-left:15px; margin-left:15px; line-height:18px; text-decoration: none;">
+                <a class="text-secondary" href="index.html" style="display:inline-block; padding-left:15px; margin-left:15px; line-height:18px; text-decoration: none ;font-size: 18px">About</a>
+                <a class="text-secondary" href="portfolio.html" style="display:inline-block; padding-left:15px; margin-left:15px; line-height:18px; text-decoration: none; border-left: 1px solid;font-size: 18px">Portfolio</a>
+                <a class="text-secondary" href="contact.html" style="display:inline-block; padding-left:15px; margin-left:15px; line-height:18px; text-decoration: none; border-left: 1px solid;font-size: 18px">Contact</a>
+            </nav>
         </div>
-        <div class="navbar-text text-secondary border-right font-weight-lighter px-4 ml-auto"> <a class="text-secondary" style="text-decoration:none;"
-                href="index.html">About</a></div>
-        <div class="navbar-text text-secondary font-weight-lighter px-4 ml-4"><a style="text-decoration:none" ; href="contact.html">Contact</a></div>
-        <div class="navbar-text text-secondary border-left font-weight-lighter px-4 ml-4"><a class="text-secondary" style="text-decoration:none"
-                class="text-secondary" href="portfolio.html">Portfolio</a></div>
-    </nav>
-    <div class="container clearfix mt-5" style="max-width: 960px">
-        <section class="row bg-white">
-            <div class=" mt-4 col-12">
-                <h1 style="font-family: Georgia, 'Times New Roman', Times, serif" class="text-info">Contact</h1>
-                <div><hr style="max-width:85"></div>
+    </header>
+
+    <div style="padding-top: 200px; min-height: calc(100vh - 70px); width: 100%; max-width: 960px; margin: 0 auto; clear: both;">
+        <section style="float:left; width: 100%; max-width: 960px; padding: 30px; margin: 0 0 40px; background: white; border: 1px solid #cccccc">
+            <h1 style=" padding-bottom: 20px; font-size:30px; line-height:49px; border-bottom: 3px solid #dddddd;font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom:20px;"
+                class="text-info">Contact Me</h1>
                 <form>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="John Smith">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
+                        <label for="exampleInputPassword1">Email</label>
                         <input type="email" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
                     </div>
                     <div class="form-group" style="font-family:Arial, Helvetica,">
